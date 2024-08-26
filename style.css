@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+:root{
+    --fonte-primaria: 'Inter', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: white;
+    color: black;
+    font-family: var(--fonte-primaria);
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+}
+
+.apresentacao {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.apresentacao_boasvindas {
+    color: black;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.input_texto {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.apresentacao_conteudo_texto {
+    width: 70%;
+    height: 20vh;
+    background: transparent;
+    border: 2px solid #7c73e6;
+    border-radius: 16px;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+.apresentacao_conteudo_botoes {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    margin-right: 500px;
+}
+
+.apresentacao_conteudo_botao_codifica,
+.apresentacao_conteudo_botao_decofidica {
+    width: 150px;
+    justify-content: center;
+    border-radius: 16px;
+    font-size: 26px; /* Aumentei o tamanho do texto */
+    border: none;
+}
+
+.apresentacao_conteudo_botao_codifica:hover {
+    background-color: #7c73e6;
+    color: white;
+}
+
+.apresentacao_conteudo_botao_decofidica:hover {
+    background-color: white;
+    border: 2px solid #7c73e6;
+    color: #7c73e6;
+}
+
+.apresentacao_conteudo_botao_copiar{
+    width: 200px;
+    border-radius: 16px;
+}
+
+.alerta {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 700px;
+    font-size: 24px; /* Aumentei o tamanho do texto */
+}
+
+.coluna_esquerda img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+    height: auto;
+    width: 300px; /* Ajuste o valor conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    float: right; /* Posiciona a imagem à direita */
+    margin-left: 25px; /* Espaçamento entre a imagem e o texto */
+    background-color: #f6f6f6;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name ="description" content = "Página que decodifica um texto digitado pelo usuário">
+    <meta author="author" content ="Ana Ruth Soares de Araújo">
+    <meta name="keywords" content="texto, codificação, decodificação">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="logoalura.png" alt="Logo da Empresa" class="logo">
+    </header>
+    <div class="apresentacao">
+        <div class="apresentacao_boasvindas">
+            <h1>Bem Vindo ao Decodificador de Texto! Digite seu texto abaixo:</h1>
+        </div>
+        <div class="alerta">! Apenas letras minúsculas e sem acentos</div>
+        <div class="input_texto">
+            <textarea class="apresentacao_conteudo_texto" placeholder="Digite seu texto aqui..."></textarea>            
+            <div class="coluna_esquerda">
+                <img src="menina_lupa.png" alt="Menina com Lupa">
+            </div>
+        </div>
+        <div class="apresentacao_conteudo_botoes">
+            <button onclick="codifica()" class="apresentacao_conteudo_botao_codifica">Codificar</button>
+            <button onclick="decodifica()" class="apresentacao_conteudo_botao_decofidica">Decodificar</button>
+            <button onclick="copiarTexto()" class="apresentacao_conteudo_botao_copiar">Copiar</button>
+        </div>
+    </div>
+    <script src="deco.js" defer></script>
+    
+</body>
+</html>
