@@ -11,3 +11,5 @@ Ferramentas utilizadas:
 
 Desenvolvido por:
 Ana Ruth Soares de Araújo
+
+observações: é o meu primeiro "projeto", logo, há muitas falhas.
