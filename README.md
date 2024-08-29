@@ -7,7 +7,7 @@ Ferramentas utilizadas:
 - HTML;
 - CSS;
 - JavaScript;
-- Canvas.
+- Canva.
 
 Desenvolvido por:
 Ana Ruth Soares de Araújo
