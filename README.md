@@ -1,5 +1,5 @@
 # decodificadordetexto
-Desafio proposto pela Alura em parceria com o projeto da Oracle #oraclenexteducation
+Desafio proposto pela Alura em parceria com o programa da Oracle 'One Br' #oraclenexteducation
 
 <img src="tela.png">
 
@@ -12,4 +12,3 @@ Ferramentas utilizadas:
 Desenvolvido por:
 Ana Ruth Soares de Araújo
 
-observações: é o meu primeiro "projeto", logo, há muitas falhas.
